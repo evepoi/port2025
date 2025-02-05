@@ -8,7 +8,6 @@ import Port from "@/components/Port";
 import Site from "@/components/Site";
 import Skill from "@/components/Skill";
 import Skip from "@/components/Skip";
-import Image from "next/image";
 import lenis from "@/utils/lenis";
 import link from "@/utils/link";
 
@@ -21,16 +20,6 @@ export default function Home() {
 
     return (
         <>
-            <>
-                <Image
-                        className=""
-                        src="/next.svg"
-                        alt="Next.js"
-                        width={180}
-                        height={38}
-                        priority
-                />
-            </>
             <Skip />
             <Header />
             <main id="main" role="main">
