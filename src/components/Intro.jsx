@@ -31,6 +31,7 @@ const Intro = () => {
                             alt="어바웃"
                             width={300}
                             height={300}
+                            priority={true}
                         />
                     </div>
                 </div>

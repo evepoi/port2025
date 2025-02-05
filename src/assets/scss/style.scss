@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
 // setting
-@import "setting/fonts";
-@import "setting/vars";
-@import "setting/reset";
-@import "setting/mixin";
+@import "setting/fonts.scss";
+@import "setting/vars.scss";
+@import "setting/reset.scss";
+@import "setting/mixin.scss";
 
 // section
-@import "section/header";
-@import "section/intro";
-@import "section/skill";
-@import "section/site";
-@import "section/port";
-@import "section/contact";
-@import "section/footer";
+@import "section/header.scss";
+@import "section/intro.scss";
+@import "section/skill.scss";
+@import "section/site.scss";
+@import "section/port.scss";
+@import "section/contact.scss";
+@import "section/footer.scss";
